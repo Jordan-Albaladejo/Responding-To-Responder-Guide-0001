@@ -1,4 +1,3 @@
-
 $regPath = "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\WinHttp"
 $regName = "DisableWpad"
 $regValue = 1
@@ -15,4 +14,5 @@ if ($null -eq $currentValue) {
     New-ItemProperty -Path $regPath -Name $regName -Value $regValue -PropertyType DWORD -Force | Out-Null
 } elseif ($currentValue.$regName -ne $regValue) {
     Set-ItemProperty -Path $regPath -Name $regName -Value $regValue
+
 }
