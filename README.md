@@ -9,6 +9,7 @@ This repository provides practical guidance and scripts for defending Windows en
 1️⃣ Read the PDF guide: [Responding To Responder - PDF Guide](https://github.com/Jordan-Albaladejo/Responding-To-Responder-LLMNR-NetBIOS-mDNS-WPAD/blob/main/Guide/Responding%20to%20Responder%20Guide%200001.pdf)
 
 
+
 2️⃣ Access the exported JSON Intune Configuration Policies: 
 
   - 📄 [Disable LLMNR Intune - Intune JSON File](https://github.com/Jordan-Albaladejo/Responding-To-Responder-LLMNR-NetBIOS-mDNS-WPAD/blob/main/Configuration%20Policies/%F0%9F%9B%A1%EF%B8%8F%20Internal%20Baseline%20_%20Disable%20LLMNR.json)
@@ -20,6 +21,7 @@ This repository provides practical guidance and scripts for defending Windows en
   - 📄 [Network Auth Security - Intune JSON File](https://github.com/Jordan-Albaladejo/Responding-To-Responder-LLMNR-NetBIOS-mDNS-WPAD/blob/main/Configuration%20Policies/%F0%9F%9B%A1%EF%B8%8F%20Internal%20Baseline%20_%20Network%20Auth%20Security.json)   
   - 📄 [Password and Credential Hash Security - Intune JSON File](https://github.com/Jordan-Albaladejo/Responding-To-Responder-LLMNR-NetBIOS-mDNS-WPAD/blob/main/Configuration%20Policies/%F0%9F%9B%A1%EF%B8%8F%20Internal%20Baseline%20_%20Password%20and%20Credential%20Hash%20Security.json)
       - Brief Explination: These three are respecting additional measures to lock down further what each protocol can do, as well as NTLM and LM credential network travel and hash storage security. See more details in PDF guide from page 13 (Step 1). 
+
   
 
 3️⃣ Access the exported PowerShell Platform scripts:    
@@ -35,9 +37,10 @@ This repository provides practical guidance and scripts for defending Windows en
 
 
 
+
  ### 🚨 DISCLAIMER 🚨      
  
  Remember that any changes made in your or client environment is YOUR express responsibility and dur diligance is required in assessing the environment for custom configurations, risk acceptace and requirements.    
  Any actions, configurations, or deployments undertaken based on the information provided in this document are solely the responsibility of the recipient. Jordan Albaladejo and any affiliated entity disclaim all liability for any outcomes resulting from the use or implementation of these solutions.     
 
- Most of all - Happy defending 🛡️⚔️
+ > Most of all - Happy defending 🛡️⚔️
