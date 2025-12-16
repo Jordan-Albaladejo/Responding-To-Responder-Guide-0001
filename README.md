@@ -5,7 +5,7 @@
 This repository provides practical guidance and scripts for defending Windows environments against [Responder](https://github.com/lgandx/Responder) tool attacks. Blocking, defending and securing common discovery protocols: LLMNR, NetBIOS, mDNS and WPAD via Intune.    
 
 ## 📺 Watch the YouTube video:
-[Click here to Watch Video Overview](https://www.youtube.com/watch?v=NTXMGIpafN8)
+[Watch Video Overview](https://www.youtube.com/watch?v=NTXMGIpafN8)
 
 ## Steps of where to go first in this repo:  
 
